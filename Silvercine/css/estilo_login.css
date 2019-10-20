@@ -1,0 +1,94 @@
+html{
+	background-image: url('../imagens/marcadagua3.png');
+	background-color: #191919;
+	font-family:sans-serif
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	position: relative;
+	height: 80px;
+	top: 25px;
+	clear: all;
+}
+
+a img#voltar{
+	position: absolute;
+	left: 150px;
+	top: 50px;
+	width: 50px;
+	opacity: 1;
+	z-index: 1;
+}
+
+a img#voltar:hover{
+	opacity: 0;
+}
+
+a img#voltar:active{
+	opacity: 1;
+}
+
+a img#voltarhover{
+	position: absolute;
+	left: 150px;
+	top: 50px;
+	width: 50px;
+	opacity: 1;
+	z-index: 0;
+}
+
+.login{
+	position: relative;
+	width: 320px;
+	height: 426px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin: auto;
+	top: 65px;
+	background-color: white;
+}
+
+#username::-webkit-input-placeholder  {
+ 	font-size:13pt; 
+}
+
+#username::-moz-placeholder {
+	font-size:13pt; 
+}
+
+#password::-webkit-input-placeholder  {
+ 	font-size:13pt; 
+}
+
+#password::-moz-placeholder {
+	font-size:13pt; 
+}
+
+.login input{
+	width: 284px;
+	height: 20px;
+	border: 2px solid silver;
+	padding: 15px;
+}
+legend{
+	font-size: 30px;
+	position: relative;
+	margin-bottom: 70px;
+	top: 30px;
+	right: 2px;
+
+}
+button{
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	text-align: center;
+	position: relative;
+	width: 318px;
+	height: 55px;
+	padding: 15px;
+	top: 20px;
+	border-radius: 5px;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+section{
+	background-image: url("../imagens/marcadagua2.png");
+	background-color: white;
+	background-repeat: repeat;
+	top: 231px;
+	height: 1600px;
+}
+
+section div{
+	position: relative;
+	height: 500px;
+	width: 600px;
+	left: calc((100% - 1200px)/2);
+	float: left;
+}
+
+section div#maior{
+	width: 1200px;
+	height: 1500px;
+	font-size: 20px;
+}
+
+section div#maior div{
+	left: 0px;
+}
+
+section div img{
+	height: 90%;
+	position: relative;
+	display: inline-block;
+	border: 4px outset #C0C0C0;
+	top: 15px;
+	left: 30px;
+}
+
+section div img#classific{
+	border: 0;
+	height: 40px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+section div h2{
+	display: inline-block;
+	position: absolute;
+	left: 350px;
+}
+
+section div h3#genero{
+	display: inline-block;
+	position: absolute;
+	top: 35px;
+	left: 350px;
+}
+
+section div h3{
+	position: absolute;
+	top: 70px;
+	left: 350px;
+	text-align: left;
+}
+
+section div a{
+	text-decoration: none;
+}
+
+section div input{
+	display: block;
+	position: absolute;
+	color: white;
+	border: 2px outset red;
+	text-decoration: none;
+	background-color: red;
+	top: 250px;
+	left: 350px;
+	height: 50px;
+	margin-top: 0;
+}
+
+section div input:hover{
+	color: black;
+}
+
+section div input:active{
+	color: white;
+}
+
+section div input#compra{
+	background-color: green;
+	border: 2px outset green;
+	top: 320px;
+}
+
+footer#rodape{
+	top: 1831px;
+}

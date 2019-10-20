@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+section#dois{
+	top: 231px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url("../imagens/promofundo.jpg");
+}
+
+section#dois{
+	top: 231px;
+}
+
+section#dois div{
+	position: relative;
+	height: 740px;
+	left: calc((100% - 1320px)/2);
+}
+
+section#dois div img{
+	border: 0;
+	position: relative;
+	height: 100%;
+	width: auto;
+	top: 0;
+	left: 0;
+}
+
+section#tres{
+	top: 831px;
+}
+
+footer#rodape{
+	top: 1431px;
+}

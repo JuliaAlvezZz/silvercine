@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+section{
+	background-image: url("../imagens/marcadagua3.png");
+	background-color: #191919;
+	background-repeat: repeat;
+	top: 231px;
+	height: 1950px;
+}
+
+section div{
+	position: relative;
+	height: 350px;
+	width: 1200px;
+	left: calc((100% - 1200px)/2);
+	display: block;
+}
+
+section div img{
+	height: 90%;
+	position: relative;
+	display: inline-block;
+	border: 4px outset #C0C0C0;
+	top: 15px;
+	left: 30px;
+}
+
+section div h2{
+	display: inline-block;
+	position: absolute;
+	left: 400px;
+	color: red;
+}
+
+section div h3{
+	position: absolute;
+	top: 70px;
+	left: 400px;
+	color: white;
+	text-align: left;
+}
+
+footer#rodape{
+	top: 2181px;
+}

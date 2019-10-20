@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'Economica';
+	src: url("../fontes/Economica.ttf");
+}
+
+body{
+	font-family: 'Economica';
+}
+
+header#titulo nav#menu ul li a.active{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+section{
+	background-image: url("../imagens/marcadagua3.png");
+	background-color: #191919;
+	background-repeat: repeat;
+	top: 231px;
+	height: 1100px;
+}
+
+section div{
+	position: relative;
+	height: 500px;
+	width: 600px;
+	left: calc((100% - 1200px)/2);
+	float: left;
+}
+
+section div#maior{
+	width: 1200px;
+	position: relative;
+	float: left;
+	height: 800px;
+	left: calc((100% - 1200px)/2);
+}
+
+section div#maior img{
+	position: relative;
+	top: 40px;
+	left: 3%;
+	width: 400px;
+	border: 4px outset #C0C0C0;
+}
+
+section div#maior div#descricao{
+	position: absolute;
+	top: 40px;
+	left: 40%;
+	width: 680px;
+	height: 600px;
+	color: white;
+	display: inline-block;
+}
+
+section div#maior div#descricao h1{
+	font-size: 18pt;
+	font-weight: bold;
+	display: inline;
+	margin-left: 0; 
+}
+
+section div#maior div#descricao h3{
+	font-size: 18pt;
+	color: white;
+	display: inline;
+	text-align: justify;
+}
+
+section div#maior div#bt{
+	width: 1320px;
+	height: 80px;
+	left: calc((100% - 1320px)/2);
+	top: 80px;
+	display: inline-block;
+}
+
+section div#maior div#bt button{
+	top: 0;
+	position: relative;
+	padding: 5px;
+	font-size: 18pt;
+	width: 150px;
+	height: 60px;
+	left: 0;
+	font-family: 'Economica';
+	background-color: rgb(27,129,17);
+	border: 0;
+	margin-right: 230px;
+	margin-left: 430px;
+	color: black;
+}
+
+section div#maior div#bt button#esq{
+	left: 200px;
+	margin: 0px;
+	top: 0px;
+	height: 60px;
+	background-color: rgb(249,0,12);
+}
+
+section div#maior div#bt button#dir{
+	margin: 0px;
+	top: 0px;
+	height: 60px;
+	background-color: rgb(253,213,40);
+}
+
+section div#maior div#bt button a{
+	color: black;
+	text-decoration: none;
+	font-size: 18pt;
+}
+
+section div#maior div#bt button a:hover{
+	color: white;
+	font-size: 18pt;
+}
+
+section div#maior div#bt button a:active{
+	color: black;
+}
+
+footer#rodape{
+	top: 1131px;
+}
+

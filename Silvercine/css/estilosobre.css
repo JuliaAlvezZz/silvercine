@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+section#um{
+	top: 231px;
+}
+
+section#um div{
+	width: 1200px;
+	left: calc((100% - 1200px)/2);
+}
+
+section#um div h2{
+	color: white;
+	font-weight: normal;
+}
+
+section img{
+	border: 2px outset #C0C0C0;
+}
+
+section#dois{
+	top: 831px;
+	height: 800px;
+}
+
+section#dois div{
+	width: 1200px;
+	left: calc((100% - 1200px)/2);
+}
+
+footer#rodape{
+	top: 1631px;
+}
